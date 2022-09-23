@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,performance,executiontime;
+    printf("enter the instruction count=");
+    scanf("%d",&a);
+    printf("enter the cpi=");
+    scanf("%d",&b);
+    printf("enter the clockcyles=");
+    scanf("%d",&c);
+    executiontime=a*b*c;
+    performance=1/executiontime;
+    printf("the cpu performance is=%f",performance);
+    scanf("%d",&executiontime);
+}
+   
